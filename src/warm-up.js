@@ -13,7 +13,7 @@ function WarmUp() {};
  */
 
 WarmUp.prototype.bumpVersion = function(version) {
-  /* Implement Me! */
+  return version + 1;
 };
 
 
@@ -29,7 +29,8 @@ WarmUp.prototype.bumpVersion = function(version) {
  *
  */
 WarmUp.prototype.stringLength = function(text) {
-  /* Implement Me! */
+  if(!text) return 0;
+  return text.length;
 };
 
 
@@ -42,7 +43,7 @@ WarmUp.prototype.stringLength = function(text) {
  *
  */
 WarmUp.prototype.currentDate = function() {
-  /* Implement Me! */
+  return new Date();
 };
 
 module.exports = WarmUp;
