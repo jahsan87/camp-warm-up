@@ -61,14 +61,14 @@ First Fork this repository on GitHub so you have your own copy. Also:
 * Install the app
 * Launch the app to see what it looks like in its broken state
 * Run the tests and see what the failures are
-* Write code to implement the EventDispatcher 
+* Write code to implement the WarmUp functions 
 * Rerun the tests to make sure they are passing
 * Refresh the app to make sure it is no longer broken
 * Commit your code and push it back up to your fork on GitHub
 
 ### Installation:
 
-    cd event-dispatcher
+    cd warm-up
     npm install
     webpack
 
@@ -77,7 +77,7 @@ This will open up a simple application in the browser.
 
     npm start
 
-Remember that the app won't work until you complete the exercise and implement the missing EventDispatcher methods.
+Remember that the app won't work until you complete the exercise and implement the missing WarmUp methods.
 
 ### Test:
 This will open up and run the Tests in your browser:
@@ -89,4 +89,4 @@ This will open up and run the Tests in your browser:
 
     webpack --watch
 
-As you do the warm up exercises and implement the EventDispatcher, refresh the browser to see if the tests are passing.
+As you do the warm up exercises and implement the WarmUP, refresh the browser to see if the tests are passing.
