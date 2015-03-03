@@ -27,7 +27,7 @@ describe "WarmUp", ->
       length = warmer.stringLength(text);
       expect(length).to.equal expectedLength
 
-    it "returns 0 null or undefined values", ->
+    it "returns 0 for null or undefined values", ->
       expectedLength = 0
       noLength1 = warmer.stringLength()
       noLength2 = warmer.stringLength(null)
