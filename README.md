@@ -68,7 +68,7 @@ First Fork this repository on GitHub so you have your own copy. Also:
 
 ### Installation:
 
-    cd event-dispatcher
+    cd warm-up
     npm install
     webpack
 
