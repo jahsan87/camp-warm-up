@@ -35,6 +35,11 @@ WarmUp.prototype.bumpVersion = function(version) {
  */
 WarmUp.prototype.stringLength = function(text) {
   /* Implement Me! */
+
+  var text = text;
+  // Use length property to get length of string
+  var textLength = text.length;
+  return textLength; // Return length of string
 };
 
 
