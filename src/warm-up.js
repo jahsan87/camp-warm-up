@@ -37,9 +37,14 @@ WarmUp.prototype.stringLength = function(text) {
   /* Implement Me! */
 
   var text = text;
-  // Use length property to get length of string
-  var textLength = text.length;
-  return textLength; // Return length of string
+  // Check if the value of text is null or undefined
+  if (text === null || text === undefined) {
+  	return 0; // Return 0 if text is null or undefined
+  } else {
+	// Use length property to get length of string
+	var textLength = text.length;
+	return textLength; // Return length of string
+  }
 };
 
 
