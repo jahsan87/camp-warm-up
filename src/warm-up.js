@@ -58,6 +58,10 @@ WarmUp.prototype.stringLength = function(text) {
  */
 WarmUp.prototype.currentDate = function() {
   /* Implement Me! */
+
+  // Retrieve current time
+  var today = Date.now();
+  return today; // Return the date right now
 };
 
 
