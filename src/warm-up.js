@@ -14,6 +14,11 @@ function WarmUp() {};
 
 WarmUp.prototype.bumpVersion = function(version) {
   /* Implement Me! */
+
+  var version = version;
+  // Increment version by 1
+  var newVersion = version + 1;
+  return newVersion; // Return incremented version
 };
 
 
@@ -44,5 +49,6 @@ WarmUp.prototype.stringLength = function(text) {
 WarmUp.prototype.currentDate = function() {
   /* Implement Me! */
 };
+
 
 module.exports = WarmUp;
